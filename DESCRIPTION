@@ -1,0 +1,30 @@
+Package: seqfinder
+Title: an R package for sequence data processing
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Yue", "Liu", ,"yueliu1115@163.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6180-8068")),
+      person("Yanzhuo", "Li", ,"lyz857985883@163.com", role = c("cph")),
+      person("Jianhao", "Chen", ,"17771816925@163.com", role = c("cph")),
+      person("Jiazheng", "Wang", ,"614380155@qq.com", role = c("cph"))
+      )
+Description: seqfinder is a tool for processing sequences in the FASTA format.
+  Including get fasta sequence base on gene id,
+  get longest sequence from pep fasta or cdna fasta,
+  get longest sequence id from gff file,
+  get gene location information,
+  get sequence information such as sequence length, mw, hydrophobicity, pI.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    Biostrings,
+    dplyr,
+    magrittr,
+    Peptides,
+    purrr,
+    readr,
+    stringr,
+    tibble,
+    utils
