@@ -28,3 +28,5 @@ Imports:
     stringr,
     tibble,
     utils
+URL: https://github.com/yueliu1115/seqfinder
+BugReports: https://github.com/yueliu1115/seqfinder/issues
